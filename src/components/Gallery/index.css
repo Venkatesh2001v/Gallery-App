@@ -1,0 +1,48 @@
+/* Write your code here. */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 50%;
+  }
+}
+
+.image {
+  border-radius: 18px;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  align-self: flex-start;
+}
+
+.para {
+  color: #64748b;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  align-self: flex-start;
+}
+
+.thumbnailItemList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+}
